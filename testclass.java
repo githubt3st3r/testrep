@@ -7,6 +7,7 @@ public class testclass {
             leib = leib + Math.pow(-1, i) / (2 * i + 1);
         }
         double pi = leib * 4;
-        System.out.println(pi);
+        System.out.println("we got: " + pi);
+        System.out.println("difference: " + (Math.PI - pi));
 	}
 }
